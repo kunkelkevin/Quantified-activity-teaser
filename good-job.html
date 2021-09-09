@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity Teaser</title>
+    <style type="text/css">
+      * {
+        font-family: Rubik, sans-serif;
+      }
+
+      .great-job-block {
+        max-width: 1022px;
+        display: flex;
+        background-color: #ffffff;
+        border-top: 1px solid #e0e0e0;
+        border-bottom: 1px solid #e0e0e0;
+        height: 14.87vw;
+        width: 60vw;
+        margin: 5px 10vw;
+      }
+      .great-job-svg-container {
+        position: relative;
+        flex-grow: 2;
+        flex-shrink: 2;
+        background-color: #F2F2F2;
+        padding-right: 15vw;
+      }
+      .great-job-svg-content {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+        padding: 15% 20%;
+        margin: 0;
+      }
+      .great-job-info {
+        width: 60%;
+        flex-shrink: 3;
+        flex-grow: 1;
+        position: relative;
+      }
+      .great-job-title {
+        font-size: 16px;
+        padding: 2vw;
+      }
+      .great-job-text {
+        padding: 0 2vw;
+        font-size: 12px;
+        margin: 0;
+      }
+      @media only screen and (max-width: 768px) {
+        .great-job-block {
+          flex-wrap: wrap-reverse;
+          max-width: none;
+          height: auto;
+        }
+        .great-job-svg-container {
+          width: 100%;
+          min-height: 30vw;
+        }
+        .great-job-svg-content {
+          height: 90%;
+          padding: 25%;
+        }
+        .great-job-title {
+          font-size: 4vw;
+        }
+        .great-job-text {
+          font-size: 3vw;
+          margin-bottom: 12px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+      <section class="great-job-block" id="great-job">
+        <article class="great-job-info">
+          <div class="great-job-title">Great job!</div>
+              <p class="great-job-text">You’ve completed this activity. The meeting you’ve recorded serves as a starting point for improvement. We’ll continue working on these skills in the next exercise!</p>
+          </div>
+        </article>
+        <div class="great-job-svg-container">
+            <svg class="great-job-svg-content" viewBox="0 0 116 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M34.3064 64.0648H34.4515V62.605V47.7426H34.3064C34.3063 47.7426 34.3062 47.7426 34.306 47.7426C32.3651 47.7434 30.6188 48.525 29.3446 49.7978C28.0722 51.072 27.2909 52.8173 27.2901 54.7586L34.3064 64.0648ZM34.3064 64.0648C34.3063 64.0648 34.3062 64.0648 34.306 64.0648C32.3645 64.064 30.619 63.2825 29.3448 62.0097M34.3064 64.0648L29.3448 62.0097M29.3448 62.0097C28.0723 60.7355 27.2909 58.9894 27.2901 57.0488C27.2901 57.0486 27.2901 57.0485 27.2901 57.0484V54.7589L29.3448 62.0097ZM89.6546 62.0103C90.9275 60.736 91.7091 58.9905 91.7099 57.0488L89.6546 62.0103ZM89.6546 62.0103C88.3805 63.2826 86.6345 64.064 84.694 64.0648C84.6938 64.0648 84.6937 64.0648 84.6936 64.0648H84.5485M89.6546 62.0103L84.5485 64.0648M84.5485 64.0648V62.6058V62.6042V47.7418H84.6936C84.6937 47.7418 84.6938 47.7418 84.694 47.7418C86.6352 47.7426 88.3805 48.5239 89.6546 49.7963C90.9274 51.0705 91.7091 52.8168 91.7099 54.7578C91.7099 54.7579 91.7099 54.758 91.7099 54.7582V57.0484L84.5485 64.0648ZM84.6933 43.4516H84.6932H84.5477V34.1455C84.5477 33.5794 84.3205 33.0306 83.9208 32.6303C83.5199 32.2279 82.9699 32 82.403 32H36.597C36.0303 32 35.4809 32.2277 35.0805 32.6282C34.68 33.0287 34.4523 33.578 34.4523 34.1447V43.4516H34.3068H34.3067C28.0619 43.4525 23.0009 48.5136 23 54.7584V54.7586V57.0488V57.0489C23.0009 63.2937 28.0618 68.3548 34.3059 68.3557H34.306H35.1449C37.6346 78.509 46.5609 86.1295 57.3537 86.6465V91.5492H54.9181H54.918C49.9386 91.55 45.9031 95.5855 45.9022 100.565V100.565V102.855C45.9022 103.422 46.1299 103.971 46.5304 104.372C46.9309 104.772 47.4802 105 48.0469 105H70.9499C71.5166 105 72.066 104.772 72.4664 104.372L71.7593 103.665L72.4664 104.372C72.8669 103.971 73.0946 103.422 73.0946 102.855V100.565V100.565C73.0937 95.5855 69.0583 91.55 64.0789 91.5492H64.0787H61.6431V86.6465C72.4366 86.1294 81.363 78.5084 83.852 68.3557H84.6916H84.6919C90.9379 68.354 95.9991 63.294 96 57.0489V57.0488V54.7586V54.7585C95.9991 48.5136 90.9381 43.4525 84.6933 43.4516ZM67.4225 97.2236C68.2812 98.0839 68.8062 99.2568 68.8068 100.566V100.711H50.1932V100.566C50.1938 99.2568 50.7188 98.0839 51.5775 97.2236C52.4377 96.3649 53.6106 95.84 54.9194 95.8393H64.0798C65.3888 95.84 66.5624 96.365 67.4225 97.2236Z" fill="white" stroke="black" stroke-width="2"/>
+                <path d="M61.4025 46.829C60.8038 44.9864 58.1969 44.9863 57.5982 46.829L55.5577 53.109H48.9546C47.0171 53.109 46.2116 55.5882 47.779 56.727L53.1211 60.6082L51.0806 66.8882C50.4819 68.7309 52.5908 70.2631 54.1583 69.1243L59.5003 65.2431L64.8424 69.1243C66.4099 70.2631 68.5188 68.7309 67.9201 66.8882L65.8796 60.6082L71.2217 56.727C72.7891 55.5882 71.9836 53.109 70.0461 53.109L63.443 53.109L61.4025 46.829Z" fill="#F8F5CD" stroke="black" stroke-width="2"/>
+                <line x1="115.496" y1="35.1397" x2="99.3205" y2="44.383" stroke="black" stroke-width="2"/>
+                <line x1="93.4747" y1="9.43705" x2="83.4612" y2="23.3019" stroke="black" stroke-width="2"/>
+                <line y1="-1" x2="17.1028" y2="-1" transform="matrix(0.585491 0.810679 0.810679 -0.585491 25.6484 8.85156)" stroke="black" stroke-width="2"/>
+                <line y1="-1" x2="18.6304" y2="-1" transform="matrix(0.868243 0.496139 0.496139 -0.868243 1 34.2715)" stroke="black" stroke-width="2"/>
+                <line x1="60" y1="20.4082" x2="60" y2="0.997372" stroke="black" stroke-width="2"/>
+                </svg>
+        </div>
+      </section>
+  </body>
+</html>
