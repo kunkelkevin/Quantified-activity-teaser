@@ -1,31 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Activity Teaser</title>
-    <style type="text/css">
-      * {
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style type="text/css">
+    * {
         font-family: Rubik, sans-serif;
-      }
-      .activity-block {
-        max-width: 1022px;
+    }
+    
+    .activity-block {
+        max-width: 860px;
         display: flex;
         background-color: #ffffff;
-        border: 1px solid #e0e0e0;
         border-radius: 4px;
-        height: 23vw;
+        height: 16vw;
         width: 80vw;
-        margin: 5px auto;
-      }
-      .svg-container {
+    }
+    
+    .svg-container {
         position: relative;
         flex-grow: 2;
         flex-shrink: 2;
         background-color: #3d8da1;
-      }
-      .svg-content {
+    }
+    
+    .svg-content {
         position: absolute;
         top: 50%;
         -webkit-transform: translateY(-50%);
@@ -36,23 +33,27 @@
         margin: auto;
         text-align: center;
         padding: 15%;
-      }
-      .info {
+    }
+    
+    .info {
         width: 60%;
         text-align: center;
         flex-shrink: 3;
         flex-grow: 1;
         position: relative;
-      }
-      .title {
+    }
+    
+    .title {
         font-size: 20px;
-        padding: 2vw;
-        margin-bottom: 1vw;
-      }
-      .counter-img {
+        padding: 0.5vw;
+        margin-bottom: 0.5vw;
+    }
+    
+    .counter-img {
         position: relative;
-      }
-      .counter-line {
+    }
+    
+    .counter-line {
         background-color: #a6a6a6;
         height: 4px;
         width: 55%;
@@ -61,33 +62,38 @@
         margin: 0 auto;
         position: absolute;
         z-index: 1;
-      }
-      .counter-text,
-      .counter-numbers {
+    }
+    
+    .counter-text,
+    .counter-numbers {
         display: flex;
         justify-content: space-between;
         width: 60%;
         margin: 0 auto;
-      }
-      .counter-number {
+    }
+    
+    .counter-number {
         background-color: #c9e5d1;
         font-weight: 500;
         font-size: 22px;
         width: 32px;
         height: 28px;
-        padding-top: 4px;
+        padding-top: 0px;
         border-radius: 50%;
         display: inline-block;
         z-index: 2;
-      }
-      .counter-text {
+    }
+    
+    .counter-text {
         width: 80%;
-      }
-      .counter-text-element {
+    }
+    
+    .counter-text-element {
         width: 33%;
         font-size: 14px;
-      }
-      .lets-go {
+    }
+    
+    .lets-go {
         border-width: 0;
         background-color: #027b8c;
         border-radius: 70px;
@@ -95,62 +101,57 @@
         padding: 0.5vw 28px;
         font-size: 16px;
         margin-bottom: 16px;
-      }
-      .timer {
+    }
+    
+    .timer {
         font-size: 14px;
         position: absolute;
         bottom: 0;
         right: 1vw;
         color: #7d7d7d;
-      }
-      @media only screen and (max-width: 768px) {
+    }
+    
+    @media only screen and (max-width: 768px) {
         .activity-block {
-          flex-wrap: wrap;
-          max-width: none;
-          height: auto;
+            flex-wrap: wrap;
+            max-width: none;
+            height: auto;
         }
         .svg-container {
-          width: 100%;
-          min-height: 30vw;
+            width: 100%;
+            min-height: 30vw;
         }
         .svg-content {
-          height: 90%;
+            height: 90%;
         }
         .title {
-          font-size: 4vw;
+            font-size: 4vw;
         }
         .counter-line {
-          height: 0.5vw;
-          top: 2.35vw;
+            height: 0.5vw;
+            top: 2.35vw;
         }
         .counter-number {
-          font-size: 4.2vw;
-          width: 5vw;
-          height: 5vw;
+            font-size: 4.2vw;
+            width: 5vw;
+            height: 5vw;
         }
         .counter-text-element {
-          font-size: 2vw;
+            font-size: 2vw;
         }
         .lets-go {
-          box-shadow: transparent;
-          font-size: 2.5vw;
+            box-shadow: transparent;
+            font-size: 2.5vw;
         }
         .timer {
-          font-size: 2vw;
-          right: 16px;
+            font-size: 2vw;
+            right: 16px;
         }
-      }
-    </style>
-  </head>
-  <body>
+    }
+</style>
     <section class="activity-block" id="pitching">
-      <div class="svg-container">
-        <svg
-          class="svg-content"
-          preserveAspectRatio="xMinYMin meet"
-          fill="none"
-          viewBox="0 0 122 123"
-        >
+        <div class="svg-container">
+            <svg class="svg-content" preserveAspectRatio="xMinYMin meet" fill="none" viewBox="0 0 122 123">
           <path
             d="M7.79186 108.619L7.17083 120.395C7.14403 120.911 7.37933 121.404 7.79781 121.708C8.21183 122.011 8.75392 122.082 9.23942 121.9L20.2943 117.671L31.3491 121.9C31.5263 121.967 31.711 122 31.8942 122C32.2114 122 32.5271 121.901 32.7907 121.708C33.2092 121.404 33.4445 120.911 33.4177 120.395L32.7966 108.619L40.2475 99.454C40.5736 99.0527 40.6734 98.5135 40.514 98.0213C40.3547 97.5291 39.957 97.1516 39.4566 97.0183L28.0191 93.9668L21.572 84.0736C21.0091 83.2098 19.5794 83.2098 19.0165 84.0736L12.5709 93.9668L1.13185 97.0183C0.631461 97.1516 0.233827 97.5291 0.0744753 98.0213C-0.0848763 98.5135 0.0149046 99.0527 0.341054 99.454L7.79186 108.619ZM13.9217 96.7629C14.2851 96.6654 14.6008 96.4375 14.8063 96.1218L20.2943 87.6992L25.7837 96.1218C25.9892 96.4375 26.3049 96.6654 26.6683 96.7629L36.3947 99.358L30.0594 107.151C29.8211 107.444 29.7005 107.816 29.7198 108.193L30.2485 118.213L20.8393 114.613C20.6636 114.546 20.4789 114.513 20.2943 114.513C20.1096 114.513 19.9249 114.546 19.7492 114.613L10.34 118.213L10.8687 108.193C10.888 107.816 10.7674 107.444 10.5291 107.151L4.19379 99.358L13.9217 96.7629Z"
             fill="white"
@@ -196,27 +197,25 @@
             fill="white"
           />
         </svg>
-      </div>
-      <article class="info">
-        <div class="title">Pitching a prospect</div>
-        <div class="counter">
-          <div class="counter-img">
-            <div class="counter-line"></div>
-            <div class="counter-numbers">
-              <div class="counter-number">1</div>
-              <div class="counter-number">2</div>
-              <div class="counter-number">3</div>
-            </div>
-          </div>
-          <div class="counter-text">
-            <p class="counter-text-element">Record Yourself</p>
-            <p class="counter-text-element">Review results</p>
-            <p class="counter-text-element">Receive tailored coaching</p>
-          </div>
         </div>
-        <button class="lets-go">LET'S GO</button>
-        <p class="timer">Time to get started: 5 min</p>
-      </article>
+        <article class="info">
+            <div class="title">Pitching a prospect</div>
+            <div class="counter">
+                <div class="counter-img">
+                    <div class="counter-line">&nbsp;</div>
+                    <div class="counter-numbers">
+                        <div class="counter-number">1</div>
+                        <div class="counter-number">2</div>
+                        <div class="counter-number">3</div>
+                    </div>
+                </div>
+                <div class="counter-text">
+                    <p class="counter-text-element">Record Yourself</p>
+                    <p class="counter-text-element">Review results</p>
+                    <p class="counter-text-element">Receive tailored coaching</p>
+                </div>
+            </div>
+            <button class="lets-go">LET&#39;S GO</button>
+            <p class="timer">Time to get started: 5 min</p>
+        </article>
     </section>
-  </body>
-</html>
